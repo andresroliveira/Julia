@@ -1,7 +1,7 @@
 using Plots
 using Markdown
 using InteractiveUtils
-
+ 
 # define the Lorenz attractor
 Base.@kwdef mutable struct Lorenz
     dt::Float64 = 0.01
